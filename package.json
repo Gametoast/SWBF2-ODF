@@ -1,0 +1,26 @@
+{
+    "name": "swbf2-odf",
+    "displayName": "SWBF2-ODF",
+    "description": "IntelliSense support for SWBF2's ODF file syntax.",
+    "version": "0.0.1",
+    "publisher": "aarongilbert2012",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "odf",
+            "aliases": ["Object Definition File", "odf"],
+            "extensions": [".odf"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "odf",
+            "scopeName": "",
+            "path": "./syntaxes/odf.tmLanguage.json"
+        }]
+    }
+}
