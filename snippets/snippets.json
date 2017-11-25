@@ -1,0 +1,8 @@
+{
+    "WeaponName": {
+        "body": "WeaponName\t\t\t\t= \"$1\"",
+        "description": "Specify a weapon class to use with the respective WEAPONSECTION.",
+        "prefix": "WeaponName",
+        "scope": "source.odf"
+    }
+}
